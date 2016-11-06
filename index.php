@@ -1,5 +1,3 @@
-
-
 <?php include('header.php');?>
 <?php include('main-slider.php');?>
 <?php include('content.php');?>

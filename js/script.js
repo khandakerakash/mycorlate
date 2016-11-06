@@ -1,4 +1,16 @@
 jQuery(function($) {'use strict';
+                    
+   //For Navigation Hover
+  /* $(function() {
+    $(".nav li").click(function() {
+        $(".nav li").removeClass('active');
+        setTimeout(function() {
+            var page = $.QueryString("page");
+            $(".nav li:eq(" + page + ")").addClass("active");
+        }, 300);
+
+    });
+});*/
 
 	//#main-slider
 	$(function(){
