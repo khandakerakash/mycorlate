@@ -1967,8 +1967,71 @@ ul.sidebar-gallery{
 }
 
 
+/*********************************************/
+/***************** CONTACT INFO *****************/
+/*********************************************/
 
+/* -- Google Map Area -- */
 
+.gmap-area {
+    background-image: url("../images/map.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.gmap-area .gmap iframe {
+    border-radius: 50%;
+    height: 280px;
+    width: 300px;
+}
+
+.gmap {
+    border: 10px solid #f6f5f0;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0px 0px 3px 3px #e7e4dc;
+}
+
+.gmap-area .map-content ul {
+    list-style: none;
+}
+
+.gmap-area .map-content address h5 {
+    font-weight: 700;
+}
+
+/* -- Contact Area -- */
+#contact-page {
+    padding: 0;
+}
+
+#contact-page .contact-warp {
+    margin-top: 20px;
+}
+
+#contact-page .contact-form
+.form-group label {
+    color: #4e4e4e;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.form-group .form-control {
+    padding: 7px 12px;
+    box-shadow: none;
+    border-color: #f2f2f2;
+}
+
+textarea#message{
+    resize: none;
+    padding: 10px;
+}
 
 
 
